@@ -15,7 +15,7 @@ const Content = () => {
         <a className="insta" href="https://www.instagram.com/iamutsavmandal/" target="_blank" rel="noreferrer" >
           an
           </a>
-          <p>{Math.PI+Math.random()*0.001}</p>
+          <p>Arbitary pi nearby : {Math.PI+Math.random()*0.001}</p>
           </div>
       );
 }
