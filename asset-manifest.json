@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Sajjan_gun/static/css/main.ed42c0ec.css",
-    "main.js": "/Sajjan_gun/static/js/main.7c42b5ca.js",
+    "main.js": "/Sajjan_gun/static/js/main.e6e15ac9.js",
     "index.html": "/Sajjan_gun/index.html",
     "main.ed42c0ec.css.map": "/Sajjan_gun/static/css/main.ed42c0ec.css.map",
-    "main.7c42b5ca.js.map": "/Sajjan_gun/static/js/main.7c42b5ca.js.map"
+    "main.e6e15ac9.js.map": "/Sajjan_gun/static/js/main.e6e15ac9.js.map"
   },
   "entrypoints": [
     "static/css/main.ed42c0ec.css",
-    "static/js/main.7c42b5ca.js"
+    "static/js/main.e6e15ac9.js"
   ]
 }
