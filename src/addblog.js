@@ -14,7 +14,7 @@ const Addblog = () => {
         e.preventDefault();
         const blog={title,body,author};
         
-        fetch('http://localhost:5000/blogs',{
+        fetch('https://utsavmandal2022.github.io/blog-api/blogs.json',{
             method:'POST',
             headers: { "Content-Type": "application/json"},
             body: JSON.stringify(blog)
