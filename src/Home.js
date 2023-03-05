@@ -4,7 +4,7 @@ import useFetch from './useFetch';
 
 const Home = () => {
 
- const{blogs,blog1,ispending,error,ti,handleintro,handleremove} = useFetch(' http://localhost:5000/blogs');
+ const{blogs,blog1,ispending,error,ti,handleintro,handleremove} = useFetch('https://utsavmandal2022.github.io/blog-api/blogs.json');
 
   return (
 <div className="Start">
