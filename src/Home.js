@@ -1,20 +1,25 @@
 import Writing from './blogs';
 import Content from './content';
 import useFetch from './useFetch';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import App from './App';
+
+// ReactDOM.render(<App/>, document.getElementById('root'));
 
 const Home = () => {
 
- const{blogs,blog1,ispending,error,ti,handleintro,handleremove} = useFetch('https://utsavmandal2022.github.io/blog-api/blogs.json');
+ const{blogs,blog1,ispending,error,ti,link,handleintro,handleremove} = useFetch('http://localhost:8000/blogs');
 
   return (
 <div className="Start">
-  <h1>{ti}</h1>
+  <a href={link} target="_blank"><h1>{ti}</h1></a>
   <button onClick={handleintro}>Real_Me</button>
   <Content/>
   {ispending&&<h1>Loading...</h1>}
   {error&&<div>{error}</div>}
   {blogs&&<Writing blogs={blogs} title={"Writings"} handleremove={handleremove} st={0}/>}
-  {blog1&&<Writing blogs={blog1} title={"Haley's Writings :>"} handleremove={handleremove} st={1}/>}
+  {blog1&&<Writing blogs={blog1} title={"Utsav's Writings :>"} handleremove={handleremove} st={1}/>}
           </div>
          
   );

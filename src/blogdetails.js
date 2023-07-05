@@ -4,10 +4,10 @@ import useFetchdet from "./useFetchdet";
 const Blogdetails = () => {
     const {id}=useParams();
     const hist=useHistory();
-    const {blogs,ispending,error}=useFetchdet('https://utsavmandal2022.github.io/blog-api/blogs.json/'+id);
+    const {blogs,ispending,error}=useFetchdet('http://localhost:8000/blogs/'+id);
     const handledel=()=>
     {
-        fetch('https://utsavmandal2022.github.io/blog-api/blogs.json/'+blogs.id,
+        fetch('http://localhost:8000/blogs/'+blogs.id,
         {method:'DELETE'}).then(()=>{
 hist.push('/');
         }

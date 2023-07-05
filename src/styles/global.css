@@ -1,6 +1,10 @@
 body{
-    font-family: "Sofia", sans-serif;
-      background: rgb(247, 229, 199);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color:rgb(221, 204, 236); */
+    background-image: url('images/1.jpg');
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .Start h1
@@ -83,4 +87,35 @@ button {
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.main_title
+{
+  text-align: center;
+  font-size: 40px;
+  color: #0f7f02;
+  margin-bottom: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titlet
+{
+  font-size: 30px;
+  color: #090557;
+  margin-bottom: 30px;
+  border: 2px solid blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intro_jk
+{
+  font-style: italic;
+  font-size: 10px;
+}
+
+.intro_jk:hover
+{
+  font-style: italic;
+  font-size: 20px;
+  color: #040ab3;
 }

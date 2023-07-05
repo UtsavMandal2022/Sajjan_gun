@@ -21,9 +21,9 @@ const
                     
                     <div className="preview" key={blog.id}>
                         <Link to={`blogs/${blog.id}`}>
-                        <h1>
+                        <p class="titlet">
                             {blog.title}
-                        </h1>
+                            </p>
                         <h2>
                             Written by : {blog.author}
                         </h2>
