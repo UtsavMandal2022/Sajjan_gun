@@ -1,4 +1,6 @@
-Hey Sajjan Gun!
+Sajjan Gun is a micro blogging website where you can put your thoughts, poems, writings and share them with the world !
+
+Made with React, json-server to server to work as database.
 
 Hosted site : https://UtsavMandal2022.github.io/Sajjan_gun
 
