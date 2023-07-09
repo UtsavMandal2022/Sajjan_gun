@@ -18,7 +18,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "npm start",
+    "start": "react-scripts start",
     "json-server": "npx json-server --watch data/writing_file.json --port 8000",
     "build": "react-scripts build",
     "test": "react-scripts test",
