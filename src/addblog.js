@@ -14,7 +14,7 @@ const Addblog = () => {
         e.preventDefault();
         const blog={title,body,author};
         
-        fetch('http://localhost:8000/blogs',{
+        fetch('https://blog-api-va55.onrender.com/blogs',{
             method:'POST',
             headers: { "Content-Type": "application/json"},
             body: JSON.stringify(blog)

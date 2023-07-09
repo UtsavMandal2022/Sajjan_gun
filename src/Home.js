@@ -9,7 +9,7 @@ import useFetch from './useFetch';
 
 const Home = () => {
 
- const{blogs,blog1,ispending,error,ti,link,handleintro,handleremove} = useFetch('http://localhost:8000/blogs');
+ const{blogs,blog1,ispending,error,ti,link,handleintro,handleremove} = useFetch('https://blog-api-va55.onrender.com/blogs');
 
   return (
 <div className="Start">
