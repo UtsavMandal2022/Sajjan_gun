@@ -13,8 +13,8 @@ const Home = () => {
 
   return (
 <div className="Start">
-  <a href={link} target="_blank"><h1>{ti}</h1></a>
-  <button onClick={handleintro}>Real_Me</button>
+ <div className='realb'><button onClick={handleintro}>Real_Me</button> </div>
+ <div className='tib'> <a href={link}  target="_blank">{ti}</a> </div>
   <Content/>
   {ispending&&<h1>Loading...</h1>}
   {error&&<div>{error}</div>}
